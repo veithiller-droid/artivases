@@ -1,0 +1,475 @@
+/* ==============================
+   Art i Vases — Dark Mono CSS
+   ============================== */
+
+:root{
+  /* Colors (all black) */
+  --bg: #000000;
+  --panel: #000000;      /* container = background */
+  --text: #ffffff;
+  --muted: #bdbdbd;
+  --border: #1f1f1f;
+  --accent: #ffffff;
+
+  /* Typography (typewriter/mono) */
+  --font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Layout */
+  --maxw: 1120px;
+  --pad: 24px;
+  --radius: 14px;
+}
+
+/* Reset */
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  font-family:var(--font);
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.5;
+  letter-spacing:0;
+}
+
+img{ max-width:100%; height:auto; display:block; }
+a{ color:inherit; text-decoration:none; }
+a:hover{ text-decoration:underline; text-underline-offset:3px; }
+
+/* Container */
+.container{
+  width:100%;
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:0 var(--pad);
+}
+
+
+/* --- Header: immer exakt 2 Zeilen --- */
+.site-header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+
+.header-inner{
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display:flex;
+  flex-direction:column;
+  gap: 10px;
+}
+
+.header-row{
+  display:grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  align-items:center;
+}
+
+/* Zeile 1 */
+.brand-name{
+  font-family: var(--font);
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text);
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Sprachwahl: nie umbrechen */
+.lang-switch{
+  justify-self:end;
+  display:flex;
+  gap: 6px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+/* Zeile 2 */
+.brand-loc{
+  font-family: var(--font);
+  font-size: 12px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Navi: nie umbrechen, ggf. horizontal scroll */
+.nav{
+  justify-self:end;
+  display:flex;
+  gap: 14px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;        /* Firefox */
+}
+.nav::-webkit-scrollbar{ display:none; } /* WebKit */
+
+/* Nav Links bleiben kompakt */
+.nav a{
+  white-space: nowrap;
+}
+.nav a{
+  font-size:13px;
+  color:var(--muted);
+  padding: 0;              /* kein Button-Look */
+  border: 0;
+  border-radius: 0;
+}
+
+.nav a.active{
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+
+/* Optional: damit Zeile 2 optisch ruhig bleibt */
+.header-row-2{
+  align-items: baseline;
+}
+
+
+
+
+/* Main */
+main{
+  padding: 40px 0 70px;
+}
+
+/* Hero */
+.kicker{
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:0.18em;
+  color:var(--muted);
+}
+
+.hero{
+  padding: 10px 0 18px;
+}
+
+.hero h1{
+  margin:14px 0 10px;
+  font-size: clamp(28px, 4.6vw, 54px);
+  line-height:1.06;
+  letter-spacing:0.01em;
+}
+
+.hero p{
+  margin:0;
+  max-width: 72ch;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* Generic section */
+.section{
+  margin-top: 26px;
+}
+
+.section h2{
+  margin: 0 0 12px;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+/* Cards (kept minimal, panel == bg) */
+.card{
+  background: var(--panel);
+  border:1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+}
+
+/* Small utility list */
+.list{
+  margin:0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size:13px;
+}
+
+/* Footer */
+footer.site-footer{
+  border-top:1px solid var(--border);
+  padding: 26px 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.footer-inner{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.footer-links{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+.footer-links a{
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ==============================
+   Workshop image+text blocks
+   ============================== */
+
+.workshop-wrap{
+  margin-top: 22px;
+  display:flex;
+  flex-direction:column;
+  gap: 44px; /* space between blocks */
+}
+
+.work-block{
+  display:grid;
+  grid-template-columns: 2fr 1fr; /* image container bigger */
+  gap: 28px;
+  align-items:center; /* vertical center align */
+}
+
+.work-media{
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow:hidden;
+}
+
+.work-media img{
+  width:100%;
+  height: 420px;      /* consistent image height */
+  object-fit: cover;
+}
+
+.work-text{
+  background: var(--panel); /* same as background */
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+}
+
+.work-text h3{
+  margin:0 0 10px;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.work-text p{
+  margin:0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* Responsive */
+@media (max-width: 920px){
+  .header-inner{ align-items:flex-start; }
+  .brand{ min-width:auto; }
+  .brand .loc{ white-space:normal; }
+
+  .work-block{
+    grid-template-columns: 1fr;
+  }
+
+  .work-media img{
+    height: 280px;
+  }
+}
+#langSwitch{
+  display:flex;
+  gap:6px;
+}
+
+.lang-btn{
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 10px;
+  font-family: var(--font);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.lang-btn.active{
+  color: var(--text);
+  border-color: var(--text);
+}
+.stack{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+.header-inner{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.header-top{
+  display:grid;
+  grid-template-columns: 1fr auto;
+  align-items:center;
+}
+
+.lang-switch{
+  justify-self:end;
+}
+
+.header-main{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:24px;
+  flex-wrap:wrap;
+}
+/* Contact: kleinere Typo */
+body[data-page="contact"] .hero h1{
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+body[data-page="contact"] .hero p{
+  font-size: 13px;
+  line-height: 1.55;
+  max-width: 68ch;
+}
+
+body[data-page="contact"] .card h3{
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+body[data-page="contact"] .card p,
+body[data-page="contact"] .card a,
+body[data-page="contact"] input,
+body[data-page="contact"] textarea,
+body[data-page="contact"] button{
+  font-size: 13px;
+}
+
+body[data-page="contact"] input,
+body[data-page="contact"] textarea{
+  padding: 10px 12px;
+}
+/* Legal/Impressum: kleinere Typo */
+body[data-page="legal"] .hero h1{
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+body[data-page="legal"] .hero p{
+  font-size: 13px;
+  line-height: 1.55;
+  max-width: 72ch;
+}
+
+body[data-page="legal"] .card h3{
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+body[data-page="legal"] .card p,
+body[data-page="legal"] .card a{
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+/* falls du pre-line nutzt */
+body[data-page="legal"] .card p{
+  white-space: pre-line;
+}
+
+.hero-media{
+  margin-top: 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--panel);
+}
+
+.hero-media img{
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display:block;
+}
+
+@media (max-width: 920px){
+  .hero-media img{ height: 260px; }
+}
+
+/* Home hero: strict 50/50, fixed heights */
+.hero-split{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 50:50 */
+  gap: 18px;
+  align-items: stretch;          /* same height */
+}
+
+/* Both panels same visual size */
+.hero-copy,
+.hero-media{
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--panel);
+  overflow: hidden;
+}
+
+/* Fixed panel height (desktop) */
+.hero-copy{
+  padding: 18px;
+  height: 420px;        /* same as image panel */
+  overflow: auto;       /* scroll text if too long */
+}
+
+/* Keep typography tight inside fixed height */
+.hero-copy .kicker{ margin:0 0 10px; }
+.hero-copy h1{ margin: 0 0 10px; }
+.hero-copy p{ margin:0; }
+
+/* Image panel: fixed format + fixed height */
+.hero-media{
+  height: 420px;
+}
+
+.hero-media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  display:block;
+}
+
+/* Mobile: stack, still fixed heights */
+@media (max-width: 920px){
+  .hero-split{
+    grid-template-columns: 1fr;
+  }
+  .hero-copy,
+  .hero-media{
+    height: 280px;
+  }
+}

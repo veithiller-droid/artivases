@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto · Art i Vases</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-page="contact" data-active="kontakt.html">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="header-row header-row-1">
+        <a class="brand-name" href="index.html" aria-label="Home">Art i Vases</a>
+        <div id="langSwitch" class="lang-switch"></div>
+      </div>
+
+      <div class="header-row header-row-2">
+        <div class="brand-loc">info@opusartivases.es · +34 722 101 787</div>
+
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="werkstatt.html">Werkstatt</a>
+          <a href="workshop.html">Workshops</a>
+          <a href="events.html">Events</a>
+          <a class="cta" href="kontakt.html">Kontakt</a>
+          <a href="legal-notice.html">Impressum</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="kicker" id="kicker"></div>
+      <h1 id="headline"></h1>
+      <p id="lead"></p>
+    </section>
+
+    <section class="section">
+      <div class="grid cols-2" style="gap:16px;">
+        <div class="card">
+          <h3 id="labelAddress"></h3>
+          <p id="contactAddress" style="margin:0;"></p>
+
+          <div style="height:14px;"></div>
+
+          <h3 id="labelEmail"></h3>
+          <p style="margin:0;">
+            <a id="contactEmailLink" href="mailto:info@opusartivases.es"><span id="contactEmail"></span></a>
+          </p>
+
+          <div style="height:14px;"></div>
+
+          <h3 id="labelPhone"></h3>
+          <p style="margin:0;">
+            <a id="contactPhoneLink" href="tel:+34722101787"><span id="contactPhone"></span></a>
+          </p>
+
+          <div style="height:14px;"></div>
+
+          <h3 id="labelHours"></h3>
+          <p id="contactHours" style="margin:0;"></p>
+        </div>
+
+        <div class="card">
+          <h3 id="formHeadline"></h3>
+
+          <form id="contactForm">
+            <input id="fName" type="text" required style="width:100%; margin:10px 0;" />
+            <input id="fReply" type="email" required style="width:100%; margin:10px 0;" />
+            <input id="fSubject" type="text" required style="width:100%; margin:10px 0;" />
+            <textarea id="fMessage" rows="6" required style="width:100%; margin:10px 0; resize:vertical;"></textarea>
+            <button id="fSend" type="submit" class="cta" style="margin-top:10px;"></button>
+          </form>
+
+          <p style="margin-top:12px; font-size:12px; color:var(--muted);">
+            (Absendung erfolgt über dein Mail-Programm.)
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-links">
+        <a href="legal-notice.html">Legal</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+      <div id="footerDisclaimer"></div>
+      <div id="footerContact"></div>
+    </div>
+  </footer>
+
+  <script>
+    // Mailto submit (kein Backend nötig)
+    document.addEventListener("submit", (e) => {
+      if (e.target && e.target.id === "contactForm") {
+        e.preventDefault();
+        const name = document.getElementById("fName").value.trim();
+        const reply = document.getElementById("fReply").value.trim();
+        const subject = document.getElementById("fSubject").value.trim();
+        const message = document.getElementById("fMessage").value.trim();
+
+        const to = "info@opusartivases.es";
+        const body =
+          `Nombre/Name: ${name}\n` +
+          `Email: ${reply}\n\n` +
+          `${message}`;
+
+        const mailto =
+          `mailto:${encodeURIComponent(to)}` +
+          `?subject=${encodeURIComponent(subject)}` +
+          `&body=${encodeURIComponent(body)}`;
+
+        location.href = mailto;
+      }
+    });
+  </script>
+
+  <script src="app.js"></script>
+</body>
+</html>

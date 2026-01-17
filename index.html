@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Art i Vases</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-page="home" data-active="index.html">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="header-row header-row-1">
+        <a class="brand-name" href="index.html" aria-label="Home">Art i Vases</a>
+        <div id="langSwitch" class="lang-switch"></div>
+      </div>
+
+      <div class="header-row header-row-2">
+        <div class="brand-loc">info@opusartivases.es · +34 722 101 787</div>
+
+        <!-- Fallback nav (sichtbar auch wenn JS scheitert) -->
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="werkstatt.html">Werkstatt</a>
+          <a href="workshop.html">Workshops</a>
+          <a href="events.html">Events</a>
+          <a href="kontakt.html">Kontakt</a>
+          <a href="legal-notice.html">Impressum</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+  <div class="hero-split">
+    <div class="hero-copy">
+      <div class="kicker" id="homeKicker">Marcos · Papel · Selección</div>
+      <h1 id="homeHeadline">Taller de marcos en Artà</h1>
+      <p id="homeLead">…</p>
+    </div>
+
+    <div class="hero-media">
+      <img id="homeHeroImg" src="images/hero.webp" alt="Art i Vases — Artà">
+    </div>
+  </div>
+</section>
+
+
+    <section class="section">
+      <div id="homeCards" class="grid cols-3"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-links">
+        <a href="legal-notice.html">Aviso legal</a>
+        <a href="kontakt.html">Contacto</a>
+      </div>
+      <div id="footerDisclaimer"></div>
+      <div id="footerContact"></div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

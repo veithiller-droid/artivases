@@ -1,0 +1,750 @@
+{
+  "site": {
+    "defaultLang": "es",
+    "brand": "Art i Vases",
+    "email": "info@opusartivases.es",
+    "phone": "+34 722 101 787",
+    "hours": "Lu, Mi–Vi 09:30–14:00 · 16:30–20:00 · Ma 09:30–20:00 · Sa 09:30–14:00",
+    "heroImage": "images/hero.webp"
+  },
+
+  "nav": [
+    { "key": "home", "href": "index.html" },
+    { "key": "shop", "href": "shop.html" },
+    { "key": "workshop", "href": "werkstatt.html" },
+    { "key": "workshops", "href": "workshop.html" },
+    { "key": "events", "href": "events.html" },
+    { "key": "contact", "href": "kontakt.html" },
+    { "key": "imprint", "href": "legal-notice.html" }
+  ],
+
+  "i18n": {
+    "es": {
+      "navLabels": {
+        "home": "Inicio",
+        "shop": "Tienda",
+        "workshop": "Taller",
+        "workshops": "Talleres",
+        "events": "Eventos",
+        "contact": "Contacto",
+        "imprint": "Aviso legal"
+      },
+      "footer": {
+        "disclaimer": "Aviso: los enlaces externos son responsabilidad de sus respectivos proveedores.",
+        "contactLine": "Art i Vases · info@opusartivases.es · +34 722 101 787"
+      },
+      "home": {
+        "kicker": "Tradición · Hecho a mano · Pieza única",
+        "headline": "Enmarcamos",
+        "lead": "Art i Vases es uno de los últimos talleres tradicionales de enmarcación en Mallorca. Aquí no se produce en serie, sino a mano: a medida, con tiempo y precisión. Cada marco es una pieza única: cortado, ensamblado a inglete, montado. Con paspartú o vitrina, según la obra. Trabajamos como lo exige el oficio: paso a paso, con cuidado, sin atajos. Para que cada pieza reciba el marco que merece – y que dure años.",
+        "cards": [
+          {
+            "title": "Taller",
+            "body": "Enmarcación tradicional a mano. Marcos a medida, paspartú, vidrio y montaje – cada pieza trabajada individualmente.",
+            "href": "werkstatt.html"
+          },
+          {
+            "title": "Tienda",
+            "body": "Pósters, postales, prints en todos los formatos. Diseños que gustan, listos para llevar.",
+            "href": "shop.html"
+          },
+          {
+            "title": "Encargo",
+            "body": "Para una primera valoración: medida interior en mm + foto. Para el asesoramiento final, traer la obra.",
+            "href": "kontakt.html"
+          },
+          {
+            "title": "Talleres creativos",
+            "body": "Talleres artísticos y artesanales en Artà. Programa y fechas próximamente.",
+            "href": "workshop.html"
+          },
+          {
+            "title": "Eventos",
+            "body": "Exposiciones, vernissages, inauguraciones en Artà y alrededores.",
+            "href": "events.html"
+          }
+        ]
+      },
+      "shop": {
+        "kicker": "Tienda",
+        "headline": "Impresiones, postales, diseño – aquí y para llevar.",
+        "lead": "En la tienda tenemos pósters, postales, prints en todos los formatos – y diseños que gustan. Desde clásico hasta original, de A6 a A1. Además camisetas, bolsas, pequeños recuerdos. Todo aquí, todo al momento. Y como somos partner oficial de Correos, puedes franquear y enviar tus postales directamente desde aquí – escribir, poner sello, listo. Pasa, echa un vistazo, llévate algo bonito.",
+        "blocks": [
+          {
+            "title": "Diseño gráfico",
+            "body": "Carteles, postales y prints. Formatos A6 hasta A1. Motivos seleccionados con cuidado.",
+            "image": "images/shop1.webp"
+          },
+          {
+            "title": "Tipografía & Lettering",
+            "body": "Composiciones tipográficas y diseños de texto. Clásico y contemporáneo.",
+            "image": "images/shop2.webp"
+          },
+          {
+            "title": "Ilustración",
+            "body": "Ilustraciones originales y reproducciones. De local y de artistas invitados.",
+            "image": "images/shop3.webp"
+          },
+          {
+            "title": "Fotografía",
+            "body": "Impresiones fotográficas. Paisajes, arquitectura, vida cotidiana de Artà y Mallorca.",
+            "image": "images/shop4.webp"
+          },
+          {
+            "title": "Textil & Souvenirs",
+            "body": "Camisetas, bolsas de tela, libretas. Diseños para llevar y regalar.",
+            "image": "images/shop5.webp"
+          }
+        ]
+      },
+      "workshop": {
+        "kicker": "Taller",
+        "headline": "Enmarcar es precisión.",
+        "lead": "En el taller, medida, material y trabajo manual se convierten en una solución que protege y sostiene. Sin producción en masa, sin atajos. Solo trabajo limpio que perdura.",
+        "blocks": [
+          {
+            "title": "Tomar medidas",
+            "body": "Medida interior, grosor de la obra, proporciones. Decisión: montaje al ras, separación tipo sombra o paspartú.",
+            "image": "images/frame1.webp"
+          },
+          {
+            "title": "Corte",
+            "body": "Molduras cortadas a longitud y ángulo exactos. Inglete sin holgura. Control de cantos.",
+            "image": "images/frame2.webp"
+          },
+          {
+            "title": "Ensamblaje",
+            "body": "Esquinas encoladas, alineadas, fijadas. Encolado en escuadra y estable.",
+            "image": "images/frame3.webp"
+          },
+          {
+            "title": "Paspartú",
+            "body": "Ventana cortada con precisión, márgenes simétricos. Separación correcta para que la obra respire y esté protegida.",
+            "image": "images/frame4.webp"
+          },
+          {
+            "title": "Montaje",
+            "body": "Colocación de vidrio, cierre de trasera, fijación de colgador. Resultado: recto, transportable, duradero.",
+            "image": "images/frame5.webp"
+          }
+        ]
+      },
+      "workshops": {
+        "kicker": "Talleres",
+        "headline": "Talleres creativos y artesanales.",
+        "lead": "Talleres artísticos y artesanales en Artà: pintura, cestería, trabajos manuales. Programa en preparación. Fechas y detalles próximamente.",
+        "blocks": [
+          {
+            "title": "Próximamente",
+            "body": "El programa de talleres está en preparación. Información sobre temas, fechas y reservas se publicará aquí."
+          }
+        ]
+      },
+      "events": {
+        "kicker": "Eventos",
+        "headline": "Exposiciones, vernissages, inauguraciones.",
+        "lead": "Exposiciones, vernissages, inauguraciones en Artà y alrededores. Las fechas se publican aquí cuando se confirman.",
+        "blocks": [
+          { "title": "Próximos eventos", "body": "Fechas confirmadas y anuncios." },
+          { "title": "Colaboraciones", "body": "Proyectos con artistas, fotógrafos y espacios locales." },
+          { "title": "Archivo", "body": "Eventos pasados y documentación." }
+        ]
+      },
+      "legal": {
+        "kicker": "Legal",
+        "headline": "Aviso legal",
+        "lead": "Información legal del sitio web Art i Vases.",
+        "blocks": [
+          {
+            "title": "Titular",
+            "body": "Art i Vases\nCarrer d'Antoni Blanes Joan, 36\n07570 Artà, Illes Balears\nEmail: info@opusartivases.es\nTel: +34 722 101 787"
+          },
+          {
+            "title": "Identificación fiscal",
+            "body": "NIE: Y5710911W\nForma jurídica: Autónomo"
+          },
+          {
+            "title": "Actividad",
+            "body": "Taller de enmarcación tradicional y servicios relacionados. La información del sitio es orientativa y puede cambiar sin previo aviso."
+          },
+          {
+            "title": "Propiedad intelectual",
+            "body": "Textos, fotografías y contenidos: © Art i Vases, salvo indicación contraria. No se permite su reproducción sin autorización expresa."
+          },
+          {
+            "title": "Enlaces externos",
+            "body": "Los enlaces externos son responsabilidad de sus respectivos proveedores. No asumimos responsabilidad por contenidos de terceros."
+          },
+          {
+            "title": "Contacto legal",
+            "body": "Para consultas legales relacionadas con este sitio: info@opusartivases.es"
+          }
+        ]
+      },
+      "contact": {
+        "kicker": "Contacto",
+        "headline": "Visita y encargos en Artà",
+        "lead": "Para encargos: traer la obra o enviar foto + medida interior (en mm). Así podemos recomendar material, vidrio y paspartú de forma adecuada.",
+        "addressLabel": "Dirección",
+        "address": "Carrer d'Antoni Blanes Joan, 36, 07570 Artà, Illes Balears",
+        "emailLabel": "Email",
+        "phoneLabel": "Teléfono",
+        "hoursLabel": "Horario",
+        "form": {
+          "headline": "Escríbenos",
+          "name": "Nombre",
+          "reply": "Tu email",
+          "subject": "Asunto",
+          "message": "Mensaje",
+          "send": "Enviar"
+        }
+      }
+    },
+
+    "de": {
+      "navLabels": {
+        "home": "Home",
+        "shop": "Shop",
+        "workshop": "Werkstatt",
+        "workshops": "Workshops",
+        "events": "Events",
+        "contact": "Kontakt",
+        "imprint": "Impressum"
+      },
+      "footer": {
+        "disclaimer": "Disclaimer: Externe Links liegen in Verantwortung der jeweiligen Anbieter.",
+        "contactLine": "Art i Vases · info@opusartivases.es · +34 722 101 787"
+      },
+      "home": {
+        "kicker": "Tradition · Handwerk · Einzelanfertigung",
+        "headline": "Wir rahmen",
+        "lead": "Art i Vases ist eine der letzten traditionellen Rahmenwerkstätten auf Mallorca. Hier wird nicht industriell gefertigt, sondern von Hand gearbeitet – nach Maß, mit Zeit und Präzision. Jeder Rahmen ist eine Einzelanfertigung: zugeschnitten, auf Gehrung gefügt, montiert. Mit Passepartout oder als Vitrine, je nach Motiv und Wunsch. Wir arbeiten so, wie es das Handwerk verlangt: Schritt für Schritt, sorgfältig, ohne Kompromisse. Damit jedes Stück die Fassung bekommt, die es verdient – und die über Jahre hält.",
+        "cards": [
+          {
+            "title": "Werkstatt",
+            "body": "Traditionelle Rahmung von Hand. Maßanfertigung, Passepartout, Glas und Montage – jedes Stück einzeln bearbeitet.",
+            "href": "werkstatt.html"
+          },
+          {
+            "title": "Shop",
+            "body": "Poster, Postkarten, Prints in allen Formaten. Designs zum Stöbern und Mitnehmen.",
+            "href": "shop.html"
+          },
+          {
+            "title": "Anfrage",
+            "body": "Für eine erste Einschätzung: Innenmaß in mm + Foto. Für die finale Beratung das Stück mitbringen.",
+            "href": "kontakt.html"
+          },
+          {
+            "title": "Kreativ-Workshops",
+            "body": "Künstlerische und handwerkliche Workshops in Artà. Programm und Termine demnächst.",
+            "href": "workshop.html"
+          },
+          {
+            "title": "Events",
+            "body": "Ausstellungen, Vernissagen, Eröffnungen in Artà und Umgebung.",
+            "href": "events.html"
+          }
+        ]
+      },
+      "shop": {
+        "kicker": "Shop",
+        "headline": "Drucke, Postkarten, Design – vor Ort und zum Mitnehmen.",
+        "lead": "Im Shop gibt's Poster, Postkarten, Prints in allen Formaten – und Designs, die Spaß machen. Von klassisch bis originell, von A6 bis A1. Dazu T-Shirts, Taschen, kleine Mitbringsel. Alles da, alles direkt vor Ort. Und weil wir offizieller Partner der spanischen Post sind, könnt ihr eure Karten auch gleich hier frankieren und verschicken – adressieren, Marke drauf, fertig. Kommt vorbei, stöbert ein bisschen, nehmt was Schönes mit.",
+        "blocks": [
+          {
+            "title": "Grafikdesign",
+            "body": "Plakate, Postkarten und Prints. Formate A6 bis A1. Sorgfältig ausgewählte Motive.",
+            "image": "images/shop1.webp"
+          },
+          {
+            "title": "Typografie & Lettering",
+            "body": "Typografische Kompositionen und Schriftzüge. Klassisch und zeitgenössisch.",
+            "image": "images/shop2.webp"
+          },
+          {
+            "title": "Illustration",
+            "body": "Originale Illustrationen und Reproduktionen. Von lokalen und Gastkünstlern.",
+            "image": "images/shop3.webp"
+          },
+          {
+            "title": "Fotografie",
+            "body": "Fotografische Prints. Landschaft, Architektur, Alltag aus Artà und Mallorca.",
+            "image": "images/shop4.webp"
+          },
+          {
+            "title": "Textil & Souvenirs",
+            "body": "T-Shirts, Stofftaschen, Notizbücher. Designs zum Tragen und Verschenken.",
+            "image": "images/shop5.webp"
+          }
+        ]
+      },
+      "workshop": {
+        "kicker": "Werkstatt",
+        "headline": "Rahmung ist Präzision.",
+        "lead": "In der Werkstatt entsteht aus Maß, Material und Handarbeit eine Lösung, die schützt und trägt. Keine Massenware, keine Kompromisse. Nur saubere Arbeit, die hält.",
+        "blocks": [
+          {
+            "title": "Maß nehmen",
+            "body": "Innenmaß, Motivdicke, Proportionen prüfen. Entscheidung: bündig montieren, Schattenfuge setzen oder Passepartout schneiden.",
+            "image": "images/frame1.webp"
+          },
+          {
+            "title": "Zuschnitt",
+            "body": "Leisten auf Länge und Winkel schneiden. Gehrung ohne Spalt. Kanten kontrollieren.",
+            "image": "images/frame2.webp"
+          },
+          {
+            "title": "Fügen",
+            "body": "Ecken verleimen, ausrichten, fixieren. Rechtwinklig und formstabil verleimt.",
+            "image": "images/frame3.webp"
+          },
+          {
+            "title": "Passepartout",
+            "body": "Fenster exakt schneiden, Ränder symmetrisch setzen. Richtiger Abstand zum Motiv – damit es atmet und geschützt ist.",
+            "image": "images/frame4.webp"
+          },
+          {
+            "title": "Montage",
+            "body": "Glas einsetzen, Rückwand schließen, Aufhängung stabil anbringen. Ergebnis: gerade hängend, transportfähig, dauerhaft.",
+            "image": "images/frame5.webp"
+          }
+        ]
+      },
+      "workshops": {
+        "kicker": "Workshops",
+        "headline": "Kreativ-Workshops und Handwerk.",
+        "lead": "Künstlerische und handwerkliche Workshops in Artà: Malerei, Korbflechten, handwerkliche Arbeiten. Programm in Vorbereitung. Termine und Details demnächst.",
+        "blocks": [
+          {
+            "title": "Demnächst",
+            "body": "Das Workshop-Programm ist in Vorbereitung. Informationen zu Themen, Terminen und Anmeldung werden hier veröffentlicht."
+          }
+        ]
+      },
+      "events": {
+        "kicker": "Events",
+        "headline": "Ausstellungen, Vernissagen, Eröffnungen.",
+        "lead": "Ausstellungen, Vernissagen, Eröffnungen in Artà und Umgebung. Termine werden hier bekannt gegeben, sobald sie feststehen.",
+        "blocks": [
+          { "title": "Aktuelle Termine", "body": "Kommende Veranstaltungen und Ausstellungen." },
+          { "title": "Kooperationen", "body": "Projekte mit Künstlern, Fotografen, Galerien." },
+          { "title": "Archiv", "body": "Vergangene Events." }
+        ]
+      },
+      "legal": {
+        "kicker": "Impressum",
+        "headline": "Impressum",
+        "lead": "Rechtliche Informationen zur Website Art i Vases.",
+        "blocks": [
+          {
+            "title": "Inhaber",
+            "body": "Art i Vases\nCarrer d'Antoni Blanes Joan, 36\n07570 Artà, Illes Balears\nEmail: info@opusartivases.es\nTel: +34 722 101 787"
+          },
+          {
+            "title": "Steuerliche Identifikation",
+            "body": "NIE: Y5710911W\nRechtsform: Selbständig"
+          },
+          {
+            "title": "Tätigkeit",
+            "body": "Traditionelle Rahmenwerkstatt und verwandte Dienstleistungen. Die Angaben auf dieser Website sind unverbindlich und können ohne Vorankündigung geändert werden."
+          },
+          {
+            "title": "Urheberrecht",
+            "body": "Texte, Fotos und Inhalte: © Art i Vases, sofern nicht anders angegeben. Reproduktion ohne ausdrückliche Genehmigung nicht gestattet."
+          },
+          {
+            "title": "Externe Links",
+            "body": "Externe Links liegen in der Verantwortung der jeweiligen Anbieter. Wir übernehmen keine Haftung für Inhalte Dritter."
+          },
+          {
+            "title": "Rechtliche Anfragen",
+            "body": "Für rechtliche Fragen zu dieser Website: info@opusartivases.es"
+          }
+        ]
+      },
+      "contact": {
+        "kicker": "Kontakt",
+        "headline": "Besuch & Anfragen in Artà",
+        "lead": "Für Anfragen: Stück vorbeibringen oder Foto + Innenmaß (in mm) schicken. So können wir Material, Glas und Passepartout sinnvoll empfehlen.",
+        "addressLabel": "Adresse",
+        "address": "Carrer d'Antoni Blanes Joan, 36, 07570 Artà, Illes Balears",
+        "emailLabel": "Email",
+        "phoneLabel": "Telefon",
+        "hoursLabel": "Öffnungszeiten",
+        "form": {
+          "headline": "Nachricht senden",
+          "name": "Name",
+          "reply": "Deine Email",
+          "subject": "Betreff",
+          "message": "Nachricht",
+          "send": "Senden"
+        }
+      }
+    },
+
+    "ca": {
+      "navLabels": {
+        "home": "Inici",
+        "shop": "Botiga",
+        "workshop": "Taller",
+        "workshops": "Tallers",
+        "events": "Esdeveniments",
+        "contact": "Contacte",
+        "imprint": "Avís legal"
+      },
+      "footer": {
+        "disclaimer": "Avís: els enllaços externs són responsabilitat dels seus respectius proveïdors.",
+        "contactLine": "Art i Vases · info@opusartivases.es · +34 722 101 787"
+      },
+      "home": {
+        "kicker": "Tradició · Fet a mà · Peça única",
+        "headline": "Emmarquem",
+        "lead": "Art i Vases és un dels últims tallers tradicionals d'emmarcació a Mallorca. Aquí no es produeix en sèrie, sinó a mà: a mida, amb temps i precisió. Cada marc és una peça única: tallat, muntat a angle, ensamblat. Amb passepartout o vitrina, segons l'obra. Treballem com ho exigeix l'ofici: pas a pas, amb cura, sense dreceres. Perquè cada peça rebi el marc que es mereix – i que duri anys.",
+        "cards": [
+          {
+            "title": "Taller",
+            "body": "Emmarcació tradicional feta a mà. Marcs a mida, passepartout, vidre i muntatge – cada peça treballada individualment.",
+            "href": "werkstatt.html"
+          },
+          {
+            "title": "Botiga",
+            "body": "Pòsters, postals, prints en tots els formats. Dissenys per mirar i emportar.",
+            "href": "shop.html"
+          },
+          {
+            "title": "Encàrrec",
+            "body": "Per a una primera valoració: mesura interior en mm + foto. Per a l'assessorament final, portar l'obra.",
+            "href": "kontakt.html"
+          },
+          {
+            "title": "Tallers creatius",
+            "body": "Tallers artístics i artesanals a Artà. Programa i dates properament.",
+            "href": "workshop.html"
+          },
+          {
+            "title": "Esdeveniments",
+            "body": "Exposicions, vernissatges, inauguracions a Artà i rodalies.",
+            "href": "events.html"
+          }
+        ]
+      },
+      "shop": {
+        "kicker": "Botiga",
+        "headline": "Impressions, postals, disseny – aquí i per emportar.",
+        "lead": "A la botiga tenim pòsters, postals, prints en tots els formats – i dissenys que agraden. Des de clàssic fins original, d'A6 a A1. A més samarretes, bosses, petits records. Tot aquí, tot al moment. I com que som partner oficial de Correus, pots franquejar i enviar les teves postals directament des d'aquí – escriure, posar segell, llest. Passa, fes una ullada, emporta't alguna cosa bonica.",
+        "blocks": [
+          {
+            "title": "Disseny gràfic",
+            "body": "Cartells, postals i prints. Formats A6 fins A1. Motius seleccionats amb cura.",
+            "image": "images/shop1.webp"
+          },
+          {
+            "title": "Tipografia & Lletres",
+            "body": "Composicions tipogràfiques i dissenys de text. Clàssic i contemporani.",
+            "image": "images/shop2.webp"
+          },
+          {
+            "title": "Il·lustració",
+            "body": "Il·lustracions originals i reproduccions. De locals i d'artistes convidats.",
+            "image": "images/shop3.webp"
+          },
+          {
+            "title": "Fotografia",
+            "body": "Impressions fotogràfiques. Paisatges, arquitectura, vida quotidiana d'Artà i Mallorca.",
+            "image": "images/shop4.webp"
+          },
+          {
+            "title": "Tèxtil & Souvenirs",
+            "body": "Samarretes, bosses de roba, llibretes. Dissenys per portar i regalar.",
+            "image": "images/shop5.webp"
+          }
+        ]
+      },
+      "workshop": {
+        "kicker": "Taller",
+        "headline": "Emmarcar és precisió.",
+        "lead": "Al taller, mesura, material i treball manual es converteixen en una solució que protegeix i sosté. Sense producció en sèrie, sense dreceres. Només treball net que perdura.",
+        "blocks": [
+          {
+            "title": "Prendre mesures",
+            "body": "Mesura interior, gruix de l'obra, proporcions. Decisió: muntatge al ras, separació tipus ombra o passepartout.",
+            "image": "images/frame1.webp"
+          },
+          {
+            "title": "Tall",
+            "body": "Motllures tallades a longitud i angle exactes. Angle sense folgança. Control de vores.",
+            "image": "images/frame2.webp"
+          },
+          {
+            "title": "Muntatge",
+            "body": "Cantonades encolades, alineades, fixades. Encolat en esquadra i estable.",
+            "image": "images/frame3.webp"
+          },
+          {
+            "title": "Passepartout",
+            "body": "Finestra tallada amb precisió, marges simètrics. Separació correcta perquè l'obra respiri i estigui protegida.",
+            "image": "images/frame4.webp"
+          },
+          {
+            "title": "Muntatge final",
+            "body": "Col·locació de vidre, tancament del darrere, fixació del penjador. Resultat: recte, transportable, durador.",
+            "image": "images/frame5.webp"
+          }
+        ]
+      },
+      "workshops": {
+        "kicker": "Tallers",
+        "headline": "Tallers creatius i artesanals.",
+        "lead": "Tallers artístics i artesanals a Artà: pintura, cistelleria, treballs manuals. Programa en preparació. Dates i detalls properament.",
+        "blocks": [
+          {
+            "title": "Properament",
+            "body": "El programa de tallers està en preparació. Informació sobre temes, dates i reserves es publicarà aquí."
+          }
+        ]
+      },
+      "events": {
+        "kicker": "Esdeveniments",
+        "headline": "Exposicions, vernissatges, inauguracions.",
+        "lead": "Exposicions, vernissatges, inauguracions a Artà i rodalies. Les dates es publiquen aquí quan es confirmen.",
+        "blocks": [
+          { "title": "Propers esdeveniments", "body": "Dates confirmades i anuncis." },
+          { "title": "Col·laboracions", "body": "Projectes amb artistes, fotògrafs i espais locals." },
+          { "title": "Arxiu", "body": "Esdeveniments passats i documentació." }
+        ]
+      },
+      "legal": {
+        "kicker": "Legal",
+        "headline": "Avís legal",
+        "lead": "Informació legal del lloc web Art i Vases.",
+        "blocks": [
+          {
+            "title": "Titular",
+            "body": "Art i Vases\nCarrer d'Antoni Blanes Joan, 36\n07570 Artà, Illes Balears\nEmail: info@opusartivases.es\nTel: +34 722 101 787"
+          },
+          {
+            "title": "Identificació fiscal",
+            "body": "NIE: Y5710911W\nForma jurídica: Autònom"
+          },
+          {
+            "title": "Activitat",
+            "body": "Taller d'emmarcació tradicional i serveis relacionats. La informació del lloc és orientativa i pot canviar sense avís previ."
+          },
+          {
+            "title": "Propietat intel·lectual",
+            "body": "Textos, fotografies i continguts: © Art i Vases, llevat que s'indiqui el contrari. No es permet la reproducció sense autorització expressa."
+          },
+          {
+            "title": "Enllaços externs",
+            "body": "Els enllaços externs són responsabilitat dels seus respectius proveïdors. No assumim responsabilitat per continguts de tercers."
+          },
+          {
+            "title": "Contacte legal",
+            "body": "Per a consultes legals relacionades amb aquest lloc: info@opusartivases.es"
+          }
+        ]
+      },
+      "contact": {
+        "kicker": "Contacte",
+        "headline": "Visita i encàrrecs a Artà",
+        "lead": "Per a encàrrecs: portar l'obra o enviar foto + mesura interior (en mm). Així podem recomanar material, vidre i passepartout de forma adequada.",
+        "addressLabel": "Adreça",
+        "address": "Carrer d'Antoni Blanes Joan, 36, 07570 Artà, Illes Balears",
+        "emailLabel": "Email",
+        "phoneLabel": "Telèfon",
+        "hoursLabel": "Horari",
+        "form": {
+          "headline": "Envia'ns un missatge",
+          "name": "Nom",
+          "reply": "El teu email",
+          "subject": "Assumpte",
+          "message": "Missatge",
+          "send": "Enviar"
+        }
+      }
+    },
+
+    "en": {
+      "navLabels": {
+        "home": "Home",
+        "shop": "Shop",
+        "workshop": "Workshop",
+        "workshops": "Courses",
+        "events": "Events",
+        "contact": "Contact",
+        "imprint": "Legal notice"
+      },
+      "footer": {
+        "disclaimer": "Disclaimer: External links are the responsibility of their respective providers.",
+        "contactLine": "Art i Vases · info@opusartivases.es · +34 722 101 787"
+      },
+      "home": {
+        "kicker": "Tradition · Handmade · Unique piece",
+        "headline": "We frame",
+        "lead": "Art i Vases is one of the last traditional framing workshops in Mallorca. Here, frames are not mass-produced but handcrafted – made to measure, with time and precision. Each frame is unique: cut, mitered, assembled. With mat or as a display case, depending on the artwork. We work as the craft demands: step by step, carefully, without shortcuts. So that each piece receives the frame it deserves – one that lasts for years.",
+        "cards": [
+          {
+            "title": "Workshop",
+            "body": "Traditional handmade framing. Custom frames, mats, glass and mounting – each piece individually crafted.",
+            "href": "werkstatt.html"
+          },
+          {
+            "title": "Shop",
+            "body": "Posters, postcards, prints in all formats. Designs to browse and take home.",
+            "href": "shop.html"
+          },
+          {
+            "title": "Request",
+            "body": "For an initial assessment: interior measurement in mm + photo. For final consultation, bring the piece.",
+            "href": "kontakt.html"
+          },
+          {
+            "title": "Creative workshops",
+            "body": "Artistic and craft workshops in Artà. Program and dates coming soon.",
+            "href": "workshop.html"
+          },
+          {
+            "title": "Events",
+            "body": "Exhibitions, vernissages, openings in Artà and surroundings.",
+            "href": "events.html"
+          }
+        ]
+      },
+      "shop": {
+        "kicker": "Shop",
+        "headline": "Prints, postcards, design – here and to go.",
+        "lead": "In the shop we have posters, postcards, prints in all formats – and designs that make you smile. From classic to quirky, A6 to A1. Plus T-shirts, bags, little souvenirs. Everything here, everything ready to take. And since we're an official Correos partner, you can stamp and send your postcards right here – write, stamp, done. Drop by, browse around, take something nice home.",
+        "blocks": [
+          {
+            "title": "Graphic Design",
+            "body": "Posters, postcards and prints. Formats A6 to A1. Carefully selected motifs.",
+            "image": "images/shop1.webp"
+          },
+          {
+            "title": "Typography & Lettering",
+            "body": "Typographic compositions and lettering designs. Classic and contemporary.",
+            "image": "images/shop2.webp"
+          },
+          {
+            "title": "Illustration",
+            "body": "Original illustrations and reproductions. From local and guest artists.",
+            "image": "images/shop3.webp"
+          },
+          {
+            "title": "Photography",
+            "body": "Photographic prints. Landscapes, architecture, everyday life from Artà and Mallorca.",
+            "image": "images/shop4.webp"
+          },
+          {
+            "title": "Textile & Souvenirs",
+            "body": "T-shirts, tote bags, notebooks. Designs to wear and give away.",
+            "image": "images/shop5.webp"
+          }
+        ]
+      },
+      "workshop": {
+        "kicker": "Workshop",
+        "headline": "Framing is precision.",
+        "lead": "In the workshop, measurement, material and handwork become a solution that protects and supports. No mass production, no shortcuts. Only clean work that lasts.",
+        "blocks": [
+          {
+            "title": "Measuring",
+            "body": "Interior measurement, artwork thickness, proportions. Decision: flush mounting, shadow gap or mat.",
+            "image": "images/frame1.webp"
+          },
+          {
+            "title": "Cutting",
+            "body": "Moldings cut to exact length and angle. Miter without gaps. Edge control.",
+            "image": "images/frame2.webp"
+          },
+          {
+            "title": "Assembly",
+            "body": "Corners glued, aligned, fixed. Glued square and stable.",
+            "image": "images/frame3.webp"
+          },
+          {
+            "title": "Mat",
+            "body": "Window cut precisely, margins symmetrical. Correct spacing so the artwork breathes and stays protected.",
+            "image": "images/frame4.webp"
+          },
+          {
+            "title": "Final mounting",
+            "body": "Glass placement, back closure, hanger installation. Result: straight hanging, transportable, durable.",
+            "image": "images/frame5.webp"
+          }
+        ]
+      },
+      "workshops": {
+        "kicker": "Workshops",
+        "headline": "Creative and craft workshops.",
+        "lead": "Artistic and craft workshops in Artà: painting, basketry, handwork. Program in preparation. Dates and details coming soon.",
+        "blocks": [
+          {
+            "title": "Coming soon",
+            "body": "The workshop program is being prepared. Information about topics, dates and bookings will be published here."
+          }
+        ]
+      },
+      "events": {
+        "kicker": "Events",
+        "headline": "Exhibitions, vernissages, openings.",
+        "lead": "Exhibitions, vernissages, openings in Artà and surroundings. Dates will be published here when confirmed.",
+        "blocks": [
+          { "title": "Upcoming events", "body": "Confirmed dates and announcements." },
+          { "title": "Collaborations", "body": "Projects with artists, photographers and local venues." },
+          { "title": "Archive", "body": "Past events and documentation." }
+        ]
+      },
+      "legal": {
+        "kicker": "Legal",
+        "headline": "Legal notice",
+        "lead": "Legal information for the Art i Vases website.",
+        "blocks": [
+          {
+            "title": "Owner",
+            "body": "Art i Vases\nCarrer d'Antoni Blanes Joan, 36\n07570 Artà, Illes Balears\nEmail: info@opusartivases.es\nPhone: +34 722 101 787"
+          },
+          {
+            "title": "Tax identification",
+            "body": "NIE: Y5710911W\nLegal form: Self-employed"
+          },
+          {
+            "title": "Activity",
+            "body": "Traditional framing workshop and related services. The information on this website is for guidance only and may change without notice."
+          },
+          {
+            "title": "Intellectual property",
+            "body": "Texts, photographs and content: © Art i Vases, unless otherwise stated. Reproduction without express permission is not permitted."
+          },
+          {
+            "title": "External links",
+            "body": "External links are the responsibility of their respective providers. We assume no liability for third-party content."
+          },
+          {
+            "title": "Legal contact",
+            "body": "For legal inquiries related to this site: info@opusartivases.es"
+          }
+        ]
+      },
+      "contact": {
+        "kicker": "Contact",
+        "headline": "Visit & inquiries in Artà",
+        "lead": "For inquiries: bring the piece or send photo + interior measurement (in mm). This allows us to properly recommend material, glass and mat.",
+        "addressLabel": "Address",
+        "address": "Carrer d'Antoni Blanes Joan, 36, 07570 Artà, Illes Balears",
+        "emailLabel": "Email",
+        "phoneLabel": "Phone",
+        "hoursLabel": "Opening hours",
+        "form": {
+          "headline": "Send a message",
+          "name": "Name",
+          "reply": "Your email",
+          "subject": "Subject",
+          "message": "Message",
+          "send": "Send"
+        }
+      }
+    }
+  }
+}
