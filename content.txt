@@ -190,14 +190,16 @@
         "emailLabel": "Email",
         "phoneLabel": "Teléfono",
         "hoursLabel": "Horario",
-        "form": {
-          "headline": "Escríbenos",
-          "name": "Nombre",
-          "reply": "Tu email",
-          "subject": "Asunto",
-          "message": "Mensaje",
-          "send": "Enviar"
-        }
+    "form": {
+  "headline": "Escríbenos",
+  "name": "Nombre",
+  "reply": "Tu email",
+  "subject": "Asunto",
+  "message": "Mensaje",
+  "send": "Enviar",
+  "note": "(El envío se realiza a través de tu programa de correo.)"
+  }
+      
       }
     },
 
@@ -372,14 +374,16 @@
         "emailLabel": "Email",
         "phoneLabel": "Telefon",
         "hoursLabel": "Öffnungszeiten",
-        "form": {
-          "headline": "Nachricht senden",
-          "name": "Name",
-          "reply": "Deine Email",
-          "subject": "Betreff",
-          "message": "Nachricht",
-          "send": "Senden"
+       "form": {
+        "headline": "Nachricht senden",
+        "name": "Name",
+        "reply": "Deine Email",
+        "subject": "Betreff",
+        "message": "Nachricht",
+        "send": "Senden",
+        "note": "(Absendung erfolgt über dein Mail-Programm.)"
         }
+      
       }
     },
 
@@ -555,14 +559,16 @@
         "phoneLabel": "Telèfon",
         "hoursLabel": "Horari",
         "form": {
-          "headline": "Envia'ns un missatge",
-          "name": "Nom",
-          "reply": "El teu email",
-          "subject": "Assumpte",
-          "message": "Missatge",
-          "send": "Enviar"
+        "headline": "Envia'ns un missatge",
+        "name": "Nom",
+        "reply": "El teu email",
+        "subject": "Assumpte",
+        "message": "Missatge",
+        "send": "Enviar",
+        "note": "(L'enviament es fa a través del teu programa de correu.)"
         }
       }
+    
     },
 
     "en": {
@@ -737,14 +743,16 @@
         "phoneLabel": "Phone",
         "hoursLabel": "Opening hours",
         "form": {
-          "headline": "Send a message",
-          "name": "Name",
-          "reply": "Your email",
-          "subject": "Subject",
-          "message": "Message",
-          "send": "Send"
-        }
-      }
+        "headline": "Send a message",
+        "name": "Name",
+        "reply": "Your email",
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send",
+        "note": "(Submission via your mail program.)"
     }
   }
 }
+}
+}
+

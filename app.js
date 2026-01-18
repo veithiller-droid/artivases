@@ -259,6 +259,9 @@ function renderContact(data, lang) {
   if (subj) subj.placeholder = f.subject || "";
   if (msg) msg.placeholder = f.message || "";
   if (send) send.textContent = f.send || "Send";
+
+  const note = document.getElementById("formNote");
+  if (note) note.textContent = f.note || "";
 }
 
 // -----------------------------
