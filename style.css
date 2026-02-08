@@ -473,3 +473,25 @@ body[data-page="legal"] .card p{
     height: 280px;
   }
 }
+/* ==============================
+   Workshops Poster (A4 hoch)
+   ============================== */
+
+.poster{
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.poster img{
+  width: 100%;
+  aspect-ratio: 210 / 297; /* A4 portrait */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+
+  background: #fff;
+  border: 1px solid rgba(255,255,255,.12); /* passt zu dark theme */
+  border-radius: var(--radius);
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
