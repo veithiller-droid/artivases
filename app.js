@@ -296,6 +296,15 @@ async function boot() {
     if (page === "contact") renderContact(data, lang);
     if (page === "legal") renderGenericPage(data, lang, "legal");
 
+  if (page === "legal") renderGenericPage(data, lang, "legal");
+
+    // Cache-busting für Workshop-Poster
+    const workshopImg = document.querySelector('.poster img[src*="current.webp"]');
+    if (workshopImg) {
+      const timestamp = new Date().getTime();
+      workshopImg.src = `images/workshops/current.webp?v=${timestamp}`;
+    }
+
   } catch (e) {
     console.error(e);
   }
